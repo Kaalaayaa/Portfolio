@@ -10,45 +10,125 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/hph2pnz.css">
+    <link rel="stylesheet" type="text/css" href="test.css" />
+    <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 <body>
 
         <header>
-            <h2>KALAYA</h2>
+            <h2><a href="#main">KALAYA</a></h2>
             <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li class="content__itemnav">
+                    <a href="#about" class="link link--leda" data-text="ABOUT">
+                        <span>ABOUT</span>
+                    </a>
+                </li>
+                <li class="content__itemnav">
+                    <a href="#projects" class="link link--leda" data-text="PROJECTS">
+                        <span>PROJECTS</span>
+                    </a>
+                </li>
+                <li class="content__itemnav">
+                    <a href="#contact" class="link link--leda" data-text="CONTACT">
+                        <span>CONTACT</span>
+                    </a>
+                </li>
             </ul>
         </header>
-        <section class="main">
-            <h1 id="lastname">CHATELAIN</h1>
+        <section id="main" class="main">
+            <h2 id="lastname">CHATELAIN</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in necessitatibus repellat quas soluta pariatur ad expedita eos, adipisci molestias aliquid impedit deserunt aut a fugit exercitationem voluptatibus, temporibus rerum.</p>
             <img src="/images/kala.jpeg" alt="" width="400px">
             <h1>WEB DEVELOPER</h1>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
             <h1>ABOUT</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero esse ad iure corporis? Nostrum animi laudantium fuga corrupti sint dolores nobis temporibus eaque voluptate. Iste asperiores adipisci odio error atque.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero esse ad iure corporis? Nostrum animi laudantium fuga corrupti sint dolores nobis temporibus eaque voluptate. Iste asperiores adipisci odio error atque.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam magnam nobis cumque aliquid repellendus fuga odit ad sequi, temporibus, modi sunt a ab, obcaecati libero non ducimus rem saepe aspernatur!
+            </p>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <h1>PROJECTS</h1>
-            <div>
-                <div>project1</div>
-                <div>project2</div>
-                <div>project3</div>
+            <div class="container">
+                <!-- TENTH EXAMPLE -->
+                <div class="view view-tenth">
+                    <img src="images/textur2.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                            enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+                <div class="view view-tenth">
+                    <img src="images/textur3.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                            enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+                <div class="view view-tenth">
+                    <img src="images/textur4.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #10</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                            enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
 
-        <section class="contact-me">
+        <section id="contact" class="contact">
             <h1>CONTACT ME</h1>
             <div class="contact-link">
-                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <li class="content__item">
+                    <button class="button button--fenrir">
+                        <svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
+                            <path class="progress__circle"
+                                d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" />
+                            <path class="progress__path"
+                                d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"
+                                pathLength="1" />
+                        </svg>
+                        <span><a href="mailto:kalaya.chatelain@yahoo.fr"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
+                    </button>
+                </li>
+                <li class="content__item">
+                    <button class="button button--fenrir">
+                        <svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
+                            <path class="progress__circle"
+                                d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" />
+                            <path class="progress__path"
+                                d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"
+                                pathLength="1" />
+                        </svg>
+                        <span><a href="https://github.com/Kaalaayaa?tab=repositories" target="_blank"><i class="fa fa-github"
+                                aria-hidden="true"></i></a></span>
+                    </button>
+                </li>
+                
+                <li class="content__item">
+                    <button class="button button--fenrir">
+                        <svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
+                            <path class="progress__circle"
+                                d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" />
+                            <path class="progress__path"
+                                d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"
+                                pathLength="1" />
+                        </svg>
+                        <span><a href="https://fr.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                    </button>
+                </li>
             </div>
         </section>
+
 </body>
 </html>
