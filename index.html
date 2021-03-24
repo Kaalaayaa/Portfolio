@@ -18,7 +18,8 @@
 <body>
 
         <header>
-            <h2><a href="#main">KALAYA</a></h2>
+            <h2><li class="content__item"><a href="#" class="link link--helike"><span>KALAYA</span></a></li></h2>
+
             <ul>
                 <li class="content__itemnav">
                     <a href="#about" class="link link--leda" data-text="ABOUT">
@@ -38,10 +39,26 @@
             </ul>
         </header>
         <section id="main" class="main">
-            <h2 id="lastname">CHATELAIN</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in necessitatibus repellat quas soluta pariatur ad expedita eos, adipisci molestias aliquid impedit deserunt aut a fugit exercitationem voluptatibus, temporibus rerum.</p>
-            <img src="/images/kala.jpeg" alt="" width="400px">
-            <h1>WEB DEVELOPER</h1>
+            <h2 id="lastname" class="text-flicker-in-glow">CHATELAIN</h2>
+            <div class="circle-container">
+            <button class="circle button--surtur">
+                    <svg class="textcircle" viewBox="0 0 500 500">
+            
+                        <defs>
+                            <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" />
+                        </defs>
+                        <text>
+                            <textPath xlink:href="#textcircle" aria-label="Projects & client work 2020" textLength="900">Hello! I'm
+                                a full stack Web developer</textPath>
+                        </text>
+                    </svg>
+                    <div aria-hidden="true" class="eye photo" width="70" height="70" viewBox="0 0 70 70"
+                        xmlns="http://www.w3.org/2000/svg">
+                    </div>
+                </button>
+             </div>  
+            <!-- <img class="slide-in-top" src="/images/kala.jpeg" alt="" width="400px"> -->
+            <!-- <h1 class="slide-in-right">Full Stack Web Developer</h1> -->
         </section>
 
         <section id="about" class="about">
@@ -53,33 +70,29 @@
 
         <section id="projects" class="projects">
             <h1>PROJECTS</h1>
-            <div class="container">
-                <!-- TENTH EXAMPLE -->
+             <div class="container">
                 <div class="view view-tenth">
-                    <img src="images/textur2.jpg" />
+                    <img src="images/Project1.png" />
                     <div class="mask">
-                        <h2>Hover Style #10</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
-                            enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
+                        <h2>Survey Form</h2>
+                        <p>Survey form</p>
+                        <a href="https://github.com/FbW-E01/uib-frameworks-responsive-bootstrap-webpage-Kaalaayaa" target="_blank" class="info">See Project</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
-                    <img src="images/textur3.jpg" />
+                    <img src="images/project3.png" />
                     <div class="mask">
-                        <h2>Hover Style #10</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
-                            enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
+                        <h2>Grid Layout</h2>
+                        <p>A webpage created using grid layout.</p>
+                        <a href="https://github.com/FbW-E01/uib-layout-grid-document-layout-Kaalaayaa" target="_blank"  class="info">See Project</a>
                     </div>
                 </div>
                 <div class="view view-tenth">
-                    <img src="images/textur4.jpg" />
+                    <img src="images/project4.png" />
                     <div class="mask">
-                        <h2>Hover Style #10</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
-                            enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
+                        <h2>Bootsrap</h2>
+                        <p>A responsive webpage created only using Bootstrap.</p>
+                        <a href="https://github.com/FbW-E01/uib-frameworks-responsive-bootstrap-webpage-Kaalaayaa" target="_blank" class="info">See Project</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +111,7 @@
                                 d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"
                                 pathLength="1" />
                         </svg>
-                        <span><a href="mailto:kalaya.chatelain@yahoo.fr"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
+                        <span><a href="mailto:kalaya.chatelain@yahoo.fr" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
                     </button>
                 </li>
                 <li class="content__item">
