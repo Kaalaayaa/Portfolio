@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -765,7 +769,7 @@ section.contact .contact-link {
   margin-top: 100px;
 }
 
-section.contact .contact-link a {
+section.contact .contact-link i {
   color: white;
   font-size: 3.7rem;
   margin-right: 0px;
