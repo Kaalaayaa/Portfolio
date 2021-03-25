@@ -591,8 +591,8 @@ section.projects h1 {
 
 /*HOVER EFFECT PROJECTS*/
 .view {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   margin: 0;
   float: left;
   border: 2px solid #fff;
@@ -607,11 +607,11 @@ section.projects h1 {
 
 .view .mask,
 .view .content {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   position: absolute;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 0px;
   top: 0;
   left: 0;
 }
@@ -731,14 +731,11 @@ section.projects h1 {
 }
 
 .container {
-  width: 100%;
+  width: 70%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   justify-items: center;
   margin: auto;
   margin-top: 60px;
