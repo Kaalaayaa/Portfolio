@@ -537,7 +537,7 @@ section.main h1 {
 section.about {
   height: 100vh;
   width: 100%;
-  background-image: url(/images/textur.jpg);
+  background-image: url(https://www.nyimachatelain.com/uploads/pictures/cms_gallery_node/282/compressed.jpg);
   background-size: cover;
   background-position: left;
   margin-top: 5px;
@@ -562,7 +562,7 @@ section.about p {
 
 /*PROJECTS*/
 section.projects {
-  background-image: url(/images/textur6.jpg);
+  background-image: url(https://www.nyimachatelain.com/uploads/pictures/cms_gallery_node/221/compressed.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -736,7 +736,7 @@ section.projects h1 {
 
 /*CONTACT*/
 section.contact {
-  background-image: url(/images/textur3.jpg);
+  background-image: url(https://www.nyimachatelain.com/uploads/pictures/cms_gallery_node/205/compressed.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
