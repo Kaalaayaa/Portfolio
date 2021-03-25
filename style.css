@@ -1204,7 +1204,7 @@ div.photo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .cb-slideshow,
